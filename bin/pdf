@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+mkdir -p "dist"
+
+pandoc="./.cabal-sandbox/bin/pandoc"
+files="camping cruise"
+
+for doc in $files
+do
+  echo "$doc"
+  $pandoc "$doc".md -o dist/"$doc".pdf --tab-stop=2
+done
+
