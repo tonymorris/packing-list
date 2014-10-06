@@ -102,6 +102,7 @@
 * Chess
 * Pop up washing hamper (use in room for dirty clothes)
 * Maps
+* Bingo markers x2
 
 # Carry-on (beachbag and backpack)
 * Passports
